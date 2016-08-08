@@ -1,0 +1,23 @@
+{
+  "name": "go-to-github",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "github",
+    "npm",
+    "redirect"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^1.0.0"
+  }
+}
